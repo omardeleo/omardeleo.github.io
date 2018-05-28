@@ -1362,7 +1362,7 @@
 						right: 0;
 						top: 50%;
 						margin-top: -1.375em;
-						width: 2.75em;
+						width: 1.5em;
 						height: 2.75em;
 						background: #000;
 						background: rgba(0, 0, 0, 0.75);
@@ -1389,7 +1389,7 @@
 						}
 
 					#me .pic:hover .arrow {
-						width: 3em;
+						width: 2em;
 						padding-right: 0.25em;
 					}
 
