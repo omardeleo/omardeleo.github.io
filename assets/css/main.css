@@ -1410,7 +1410,7 @@
 					}
 
 					#me header > p {
-						position: absolute;
+						position: relative;
 						left: 0;
 						top: 52.5%;
 						font-size: 1.5em;
