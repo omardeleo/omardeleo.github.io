@@ -741,6 +741,12 @@
 		.\-1u\28mobile\29 {
 			margin-left: 8.33333%;
 		}
+		.exp-icons {
+			flex-wrap: wrap;
+		}
+		.exp-icon {
+			height: 35px;
+		}
 
 	}
 
@@ -1058,6 +1064,27 @@
 		#experience i {
 			color: black;
 			font-size: 2.5em;
+		}
+		.exp-icon {
+			margin-bottom: -10px;
+		}
+
+		.exp-icons {
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-start;
+			align-items: flex-start;
+		}
+
+		.exp-icons>* {
+			margin: 6px;
+		}
+
+		#experience a {
+			text-decoration: none;
+		}
+		#experience a:hover {
+			text-decoration: underline;
 		}
 
 /* Nav */
