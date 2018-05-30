@@ -747,7 +747,9 @@
 		.exp-icon {
 			height: 35px;
 		}
-
+		.redux {
+			height: 30px;
+		}
 	}
 
 /* Basic */
@@ -1078,6 +1080,10 @@
 
 		.exp-icons>* {
 			margin: 6px;
+		}
+
+		.redux {
+			margin-top: 10px;
 		}
 
 		#experience a {
