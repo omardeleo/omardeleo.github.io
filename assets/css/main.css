@@ -1042,6 +1042,10 @@
 			padding-left: 0.25em;
 		}
 
+		.instafam-features {
+			list-style: inside;
+		}
+
 /* Icons */
 
 	.icon {
@@ -1171,6 +1175,8 @@
 			#footer .copyright li:first-child:before {
 				display: none;
 			}
+
+
 
 /* Desktop */
 
