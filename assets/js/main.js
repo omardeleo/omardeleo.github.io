@@ -51,6 +51,7 @@
 					$footer = $('#footer'),
 					$wrapper = $('#wrapper'),
 					$nav = $('#nav'), $nav_links = $nav.find('a'),
+					$contact= $('.fa-envelope.front-icon'),
 					$jumplinks = $('.jumplink'),
 					$form = $('form'),
 					panels = [],
@@ -166,6 +167,23 @@
 
 				// Nav + Jumplinks.
 					$nav_links.add($jumplinks).click(function(e) {
+						var t = $(this), href = t.attr('href'), id;
+
+						if (href.substring(0,1) == '#') {
+
+							e.preventDefault();
+							e.stopPropagation();
+
+							id = href.substring(1);
+
+							if (id in panels)
+								panels[id]._activate();
+
+						}
+
+					});
+
+					$contact.add($jumplinks).click(function(e) {
 						var t = $(this), href = t.attr('href'), id;
 
 						if (href.substring(0,1) == '#') {
