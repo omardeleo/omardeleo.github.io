@@ -1229,6 +1229,21 @@
 				margin: 0.5em 0 0 0;
 			}
 
+			#me > header {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+			}
+
+			.omar-info {
+				font-family: 'Ubuntu', sans-serif;
+				margin-bottom: 80px;
+			}
+
+			.omar-info > h1 {
+				font-size: 60px;
+				margin-bottom: 20px;
+			}
 
 			.omar-links {
 				width: 200px;
