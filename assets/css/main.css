@@ -1225,9 +1225,15 @@
 				margin: 0 0 1.5em 0;
 			}
 
-				header > p {
-					margin: 0.5em 0 0 0;
-				}
+			header > p {
+				margin: 0.5em 0 0 0;
+			}
+
+			.front-icon {
+				font-size: 40px;
+				text-decoration: none;
+				color: #666;
+			}
 
 		/* Button */
 
