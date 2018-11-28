@@ -1229,6 +1229,14 @@
 				margin: 0.5em 0 0 0;
 			}
 
+
+			.omar-links {
+				width: 200px;
+				/* background-color: green; */
+				display: flex;
+				justify-content: space-between;
+			}
+
 			.front-icon {
 				font-size: 40px;
 				text-decoration: none;
