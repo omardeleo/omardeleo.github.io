@@ -1044,7 +1044,7 @@
 			padding-left: 0.25em;
 		}
 
-		.instafam-features {
+		.project-features {
 			list-style: inside;
 		}
 
@@ -1261,6 +1261,50 @@
 			}
 
 		/* Projects */
+
+			#projects {
+				/* color: green; */
+				font-family: 'Roboto', sans-serif;
+			}
+
+			#projects h2 {
+				margin-bottom: -10px;
+			}
+
+			.project-item {
+				margin-bottom: 50px;
+			}
+
+			.project-item h3 {
+				font-size: 24px;
+			}
+
+			.project-item p {
+				font-size: 16px;
+				margin-bottom: 0;
+			}
+
+			.project-features {
+				color: black;
+				font-size: 14px;
+				/* margin-top: -20px; */
+			}
+
+			.stack span {
+				color: black;
+			}
+
+			.features-header {
+				color: black;
+			}
+
+			.project-features li {
+				margin-bottom: -10px;
+			}
+
+
+
+
 
 		/* Button */
 
