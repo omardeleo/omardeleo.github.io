@@ -14,6 +14,7 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 		<link rel="icon" href="assets/favicon.png" type="image/png" sizes="16x16">
 		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
@@ -59,12 +60,12 @@
 								<header>
 									<h2>PROJECTS</h2>
 								</header>
-								<div>
+								<div class="project-item">
 									<h3>Instafam</h3>
 									<p>
 										Single-page photo-sharing web application inspired by Instagram
 									</p>
-									<ul class="instafam-features">
+									<ul class="project-features">
 										<li>Uses Rails backend to serve RESTful API, authenticate requests, and validate database input.</li>
 										<li>Uploads images to AWS S3 via the Paperclip gem for increased performance and scalability.</li>
 										<li>Truncates comment index to display the 5 most recent ones.</li>
@@ -83,6 +84,64 @@
 											</div>
 										</div>
 									</section>
+								</div>
+								<div class="project-item">
+									<h3>Simian</h3>
+									<p>
+										Pattern memory game inspired by Simon, written in JavaScript and EZPZ
+									</p>
+									<p class="stack"><span>Stack: </span>JavaScript, EZPZ, HTML, CSS, Firebase, Cloud Firestore</p>
+									<p class="features-header">Features</p>
+									<ul class="project-features">
+										<li>New Game button</li>
+										<li>Board with 4 different-colored light-up push-pads</li>
+										<li>How To Play instructional guide</li>
+										<li>Sound effects via HTML &ltaudio&gt</li>
+										<li>Sound Off/On button</li>
+										<li>Current Score display</li>
+										<li>High Score display</li>
+										<li>Game Over screen</li>
+										<li>Links to my awesome work</li>
+									</ul>
+									<p class="features-header">Technologies, Libraries, APIs</p>
+									<ul class="project-features">
+										<li>HTML for markup</li>
+										<li>CSS for styling</li>
+										<li>JavaScript + EZPZ for DOM manipulation and interactivity</li>
+										<li>Firebase for getting and updating High Score</li>
+									</ul>
+									<section>
+										<div class="row">
+											<div class="4u 12u$(mobile)">
+												<a href="#" class="image fit"><img src="https://media.giphy.com/media/1AegE5Vc4jL4yCet0J/giphy.gif" alt=""></a>
+											</div>
+											<div class="4u 12u$(mobile)">
+												<a href="#" class="image fit"><img src="https://media.giphy.com/media/42AFZTmJMhcVPBSgXG/giphy.gif" alt=""></a>
+											</div>
+											<div class="4u$ 12u$(mobile)">
+												<a href="#" class="image fit"><img src="https://media.giphy.com/media/1MXuVWQys4IuvM4COr/giphy.gif" alt=""></a>
+											</div>
+										</div>
+									</section>
+								</div>
+								<div class="project-item">
+									<h3>EZPZ</h3>
+									<p>
+										A lightweight DOM manipulation library inspired by jQuery
+									</p>
+									<p class="stack"><span>Stack: </span>JavaScript, Webpack, Google Cloud</p>
+									<p class="features-header">Features</p>
+									<ul class="project-features">
+										<li>Uses JavaScript ES6 and native DOM Web API to perform core DOM manipulation.</li>
+										<li>Makes AJAX calls utilizing asynchronous HTTP requests to access databases.</li>
+										<li>Handles creation and deletion of event listeners utilizing a hash map for efficient referencing.</li>
+									</ul>
+									<p class="features-header">Technologies, Libraries, APIs</p>
+									<ul class="project-features">
+										<li>JavaScript for DOM manipulation</li>
+										<li>Webpack for bundling</li>
+										<li>Google Cloud Storage for low-latency, global content delivery</li>
+									</ul>
 								</div>
 							</article>
 
