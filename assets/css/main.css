@@ -1068,8 +1068,8 @@
 			display: none;
 		}
 
-		/* Experience Icons */
-		#experience i {
+		/* Skills Icons */
+		#skills i {
 			color: black;
 			font-size: 2.5em;
 		}
@@ -1092,10 +1092,10 @@
 			margin-top: 10px;
 		}
 
-		#experience a {
+		#skills a {
 			text-decoration: none;
 		}
-		#experience a:hover {
+		#skills a:hover {
 			text-decoration: underline;
 		}
 
@@ -1263,7 +1263,6 @@
 		/* Projects */
 
 			#projects {
-				/* color: green; */
 				font-family: 'Roboto', sans-serif;
 			}
 
@@ -1287,7 +1286,6 @@
 			.project-features {
 				color: black;
 				font-size: 14px;
-				/* margin-top: -20px; */
 			}
 
 			.stack span {
@@ -1302,9 +1300,23 @@
 				margin-bottom: -10px;
 			}
 
+		/* Skills */
+		#skills {
+			font-family: 'Roboto', sans-serif;
+		}
 
+		#skills h2 {
+			margin-bottom: -10px;
+		}
 
+		#skills p, #skills div {
+			color: black;
+			font-size: 16px;
+		}
 
+		#skills div {
+			line-height: 26px;
+		}
 
 		/* Button */
 
