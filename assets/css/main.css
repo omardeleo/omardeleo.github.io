@@ -1260,6 +1260,12 @@
 				color: #666;
 			}
 
+			.fa-angellist {
+				text-decoration: none;
+				color: #666;
+				font-size: 2em;
+			}
+
 		/* Projects */
 
 			#projects {
