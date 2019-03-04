@@ -1300,6 +1300,15 @@
 				margin-bottom: -10px;
 			}
 
+			.project-title {
+				display: flex;
+			}
+
+			.project-title a {
+				margin-left: 5px;
+				font-size: 16px;
+			}
+
 		/* Skills */
 		#skills {
 			font-family: 'Roboto', sans-serif;
