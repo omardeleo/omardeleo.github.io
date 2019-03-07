@@ -1249,7 +1249,7 @@
 			}
 
 			.omar-links {
-				width: 200px;
+				width: 250px;
 				display: flex;
 				justify-content: space-between;
 			}
@@ -1262,8 +1262,24 @@
 
 			.fa-angellist {
 				text-decoration: none;
-				color: #666;
+				color: black;
 				font-size: 2em;
+			}
+
+			.fa-github {
+				color: black;
+			}
+
+			.fa-linkedin {
+				color: #0077B5;
+			}
+
+			.fa-file, .fa-envelope {
+				color: black;
+			}
+
+			.fa-envelope {
+				margin-left: 5px;
 			}
 
 		/* Projects */
