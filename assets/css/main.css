@@ -1322,19 +1322,15 @@
 		.skills-icons {
 			margin-top: 30px;
 			width: 100%;
-			/* background: aqua; */
-			/* padding-bottom: 30px; */
 		}
+
 		.skills-row {
 			display: flex;
 			height: 60px;
 			width: auto;
-			/* background: #999; */
-			/* margin: 15px 0 30px 0;
-			 */
-			 margin-top: 15px;
-			 margin-bottom: 30px;
-			 padding-bottom: 30px;
+			margin-top: 15px;
+			margin-bottom: 30px;
+			padding-bottom: 30px;
 			justify-content: space-evenly;
 		}
 
@@ -1362,6 +1358,12 @@
 
 		.resume-link a {
 			text-decoration: none;
+			color: #666;
+		}
+
+		.resume-link a:hover {
+			text-decoration: none;
+			color: darkblue;
 		}
 
 		/* Button */
