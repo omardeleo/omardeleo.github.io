@@ -741,7 +741,7 @@
 		.\-1u\28mobile\29 {
 			margin-left: 8.33333%;
 		}
-		.exp-icons {
+		.skills-icons {
 			flex-wrap: wrap;
 		}
 		.exp-icon {
@@ -1077,14 +1077,14 @@
 			margin-bottom: -10px;
 		}
 
-		.exp-icons {
+		.skills-icons {
 			display: flex;
 			flex-direction: row;
 			justify-content: flex-start;
 			align-items: flex-start;
 		}
 
-		.exp-icons>* {
+		.skills-icons>* {
 			margin: 6px;
 		}
 
