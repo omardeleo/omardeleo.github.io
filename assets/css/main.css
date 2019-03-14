@@ -1265,21 +1265,18 @@
 			}
 
 			.project-item p {
-				font-size: 16px;
+				font-size: 20px;
 				margin-bottom: 0;
 			}
 
 			.project-features {
 				color: black;
-				font-size: 14px;
+				font-size: 18px;
 			}
 
-			.stack span {
+			.stack span, .features-header {
 				color: black;
-			}
-
-			.features-header {
-				color: black;
+				font-weight: bold;
 			}
 
 			.project-features li {
@@ -1349,22 +1346,38 @@
 			margin-top: 2px;
 		}
 
-		.resume-link {
+		.link-container {
 			display: flex;
 			flex-direction: row;
 			justify-content: center;
 			margin-top: 35px;
 		}
+		.resume-link {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			background: darkblue;
+			width: 200px;
+			border-radius: 10px;
+			box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+		}
+
+		/* .resume-link {
+			text-align: center;
+		} */
 
 		.resume-link a {
 			text-decoration: none;
-			color: #666;
+			color: white;
 		}
 
-		.resume-link a:hover {
+		/* .resume-link a:hover {
 			text-decoration: none;
 			color: darkblue;
-		}
+		} */ */
+
+		
 
 		/* Button */
 
