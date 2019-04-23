@@ -746,8 +746,7 @@
 /* Basic */
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
-		background-size: cover;
+		background-image: url("images/bg.jpg");
 		background-position: top;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
@@ -1163,6 +1162,7 @@
 				background-attachment: fixed;
 				font-size: 14pt;
 				line-height: 1.75em;
+				background-size: cover;
 			}
 
 			input, textarea, select {
@@ -1634,6 +1634,10 @@
 				line-height: 1.75em;
 			}
 
+			body {
+				min-width: 320px;
+			}
+
 			h1, h2 {
 				font-size: 1.75em;
 				letter-spacing: -0.025em;
@@ -1759,6 +1763,58 @@
 				#me header > p {
 					font-size: 1.25em;
 				}
+
+			#me h1 {
+				font-size: 40px;
+			}
+
+			.omar-info div:first-of-type, .omar-info div:last-of-type {
+				font-size: 20px;
+			}
+
+			.omar-info div:first-of-type {
+				margin-top: 10px;
+			}
+
+			.omar-info div:last-of-type {
+
+			}
+
+			.omar-links {
+				margin-top: 10px;
+				display: flex;
+				justify-content: space-between;
+				/* font-size: 30px; */
+				padding: 0 30px;
+			}
+
+			.front-icon {
+				font-size: 30px;
+				text-decoration: none;
+				color: #666;
+			}
+
+			.fa-angellist {
+				text-decoration: none;
+				color: black;
+				font-size: 2em;
+			}
+
+			.fa-github {
+				color: black;
+			}
+
+			.fa-linkedin {
+				color: #0077B5;
+			}
+
+			.fa-file, .fa-envelope {
+				color: black;
+			}
+
+			.fa-envelope {
+				margin-left: 5px;
+			}
 
 		/* Footer */
 
