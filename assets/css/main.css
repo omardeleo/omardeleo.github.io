@@ -1058,10 +1058,6 @@
 			display: none;
 		}
 
-		.redux {
-			margin-top: 10px;
-		}
-
 /* Nav */
 
 	#nav a {
@@ -1352,6 +1348,7 @@
 			justify-content: center;
 			margin-top: 35px;
 		}
+
 		.resume-link {
 			display: flex;
 			flex-direction: row;
@@ -1817,6 +1814,11 @@
 			}
 
 		/* Skills */
+			#skills {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
 			#skills h4 {
 				margin: 20px 0;
 			}
@@ -1837,6 +1839,24 @@
 			.skills-row img, .skills-row span,
 			.skills-row i, .iconify {
 				margin: 0 10px 20px 10px;
+			}
+
+			.resume-link {
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+				background: darkblue;
+				width: 150px;
+				border-radius: 10px;
+				box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+				margin-bottom: 20px;
+			}
+
+			.resume-link a {
+				text-decoration: none;
+				color: white;
+				padding: 0 20px;
 			}
 
 		/* Footer */
