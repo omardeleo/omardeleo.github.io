@@ -1816,6 +1816,30 @@
 				margin-left: 5px;
 			}
 
+		/* Skills */
+			#skills h4 {
+				margin: 20px 0;
+			}
+
+			.skills-row {
+				display: flex;
+				flex-wrap: wrap;
+			}
+
+			.skills-row i, .iconify {
+				font-size: 60px;
+			}	
+
+			.skills-row img, .skills-row span {
+				height: 60px;
+			}
+
+			.skills-row img, .skills-row span,
+			.skills-row i, .iconify {
+				margin-right: 20px;
+				margin-bottom: 20px;
+			}
+
 		/* Footer */
 
 			#footer {
